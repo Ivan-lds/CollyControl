@@ -207,6 +207,7 @@ public class ControleEstoqueScreen extends JPanel {
             precoField.setText(String.valueOf(produto.getPreco()));
 
             JButton salvarBtn = new JButton("Salvar Alterações");
+            salvarBtn.setFont(new Font("Arial", Font.BOLD, 16));
             GridBagConstraints gbc = new GridBagConstraints();
             gbc.gridx = 0;
             gbc.gridy = 9;
